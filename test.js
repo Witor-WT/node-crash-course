@@ -1,3 +1,6 @@
-const n = 'yoshi';
+const greet = (name) => {
+    console.log(`Hello, ${name}!`)
+}
 
-console.log(n);
+greet('mario')
+greet('yoshi')
